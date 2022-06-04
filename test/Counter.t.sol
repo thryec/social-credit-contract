@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity 0.8.13;
 
 import "ds-test/test.sol";
 import {Counter} from "src/Counter.sol";
 
-contract ContractTest is DSTest {
+contract CounterTest is DSTest {
     Counter counter;
     address sender;
 
